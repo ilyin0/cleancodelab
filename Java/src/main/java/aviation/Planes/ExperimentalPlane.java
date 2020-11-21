@@ -5,7 +5,7 @@ import aviation.models.ExperimentalPlaneType;
 
 public class ExperimentalPlane extends Plane{
 
-    private ExperimentalPlaneType type;
+    private final ExperimentalPlaneType type;
     private PrivacyLevel privacyLevel;
 
     public ExperimentalPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, ExperimentalPlaneType type, PrivacyLevel privacyLevel) {
@@ -34,8 +34,9 @@ public class ExperimentalPlane extends Plane{
 
     @Override
     public String toString() {
-        return "experimentalPlane{" +
-                "model='" + model + '\'' +
+        return "ExperimentalPlane{" +
+                "type=" + type +
+                ", privacyLevel=" + privacyLevel +
                 '}';
     }
 }
