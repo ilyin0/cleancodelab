@@ -7,7 +7,7 @@ import aviation.Planes.Plane;
 import java.util.Arrays;
 import java.util.List;
 
-public class Runner {
+public class Main {
     static List<Plane> planes = Arrays.asList(
             new PassengerPlane("Boeing-737", 900, 12000, 60500, 164),
             new PassengerPlane("Boeing-737-800", 940, 12300, 63870, 192),
