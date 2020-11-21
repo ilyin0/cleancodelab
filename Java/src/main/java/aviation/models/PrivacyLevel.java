@@ -1,5 +1,5 @@
-package models;
+package aviation.models;
 
-public enum ClassificationLevel {
+public enum PrivacyLevel {
     UNCLASSIFIED, CONFIDENTIAL, SECRET, TOP_SECRET
 }
