@@ -1,9 +1,9 @@
 package aviation;
 
 import aviation.planes.ExperimentalPlane;
-import aviation.planes.models.PrivacyLevel;
-import aviation.planes.models.ExperimentalPlaneType;
-import aviation.planes.models.MilitaryPlaneType;
+import aviation.planes.properties.PrivacyLevel;
+import aviation.planes.properties.ExperimentalPlaneType;
+import aviation.planes.properties.MilitaryPlaneType;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
