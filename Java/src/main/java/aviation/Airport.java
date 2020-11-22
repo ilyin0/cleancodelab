@@ -9,14 +9,26 @@ import aviation.planes.Plane;
 import java.util.*;
 
 public class Airport {
-    private final List<? extends Plane> planes;
+    private final List<Plane> planes;
 
-    public Airport(List<? extends Plane> planes) {
+    public Airport(){
+        planes = new ArrayList<>();
+    }
+
+    public Airport(List<Plane> planes) {
         this.planes = planes;
     }
 
-    public List<? extends Plane> getPlanes() {
+    public List<Plane> getPlanes() {
         return planes;
+    }
+
+    public void addPlane(Plane plane) {
+        planes.add(plane);
+    }
+
+    public void addPlanes(List<Plane>planesList) {
+        planes.addAll(planesList);
     }
 
     public List<PassengerPlane> getPassengerPlanes() {
