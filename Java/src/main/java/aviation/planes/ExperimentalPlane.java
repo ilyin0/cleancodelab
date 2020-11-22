@@ -34,9 +34,8 @@ public class ExperimentalPlane extends Plane{
 
     @Override
     public String toString() {
-        return "ExperimentalPlane{" +
-                "type=" + type +
-                ", privacyLevel=" + privacyLevel +
-                '}';
+        return super.toString().replace("}",
+                ", type=" + type + ", privacyLevel="+privacyLevel+
+                        '}');
     }
 }
