@@ -1,22 +1,18 @@
 package aviation;
 
 import aviation.planes.ExperimentalPlane;
-import aviation.models.PrivacyLevel;
-import aviation.models.ExperimentalPlaneType;
-import aviation.models.MilitaryPlaneType;
-import com.sun.xml.internal.ws.binding.FeatureListUtil;
+import aviation.planes.models.PrivacyLevel;
+import aviation.planes.models.ExperimentalPlaneType;
+import aviation.planes.models.MilitaryPlaneType;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import aviation.planes.MilitaryPlane;
 import aviation.planes.PassengerPlane;
 import aviation.planes.Plane;
-import org.testng.collections.CollectionUtils;
-import org.testng.collections.Lists;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 public class AirportTest {

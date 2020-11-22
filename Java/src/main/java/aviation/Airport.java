@@ -1,7 +1,7 @@
 package aviation;
 
 import aviation.planes.ExperimentalPlane;
-import aviation.models.MilitaryPlaneType;
+import aviation.planes.models.MilitaryPlaneType;
 import aviation.planes.MilitaryPlane;
 import aviation.planes.PassengerPlane;
 import aviation.planes.Plane;

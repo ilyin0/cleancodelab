@@ -1,7 +1,7 @@
 package aviation.planes;
 
-import aviation.models.PrivacyLevel;
-import aviation.models.ExperimentalPlaneType;
+import aviation.planes.models.PrivacyLevel;
+import aviation.planes.models.ExperimentalPlaneType;
 
 public class ExperimentalPlane extends Plane{
 
