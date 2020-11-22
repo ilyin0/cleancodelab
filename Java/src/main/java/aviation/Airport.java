@@ -1,10 +1,10 @@
 package aviation;
 
-import aviation.Planes.ExperimentalPlane;
+import aviation.planes.ExperimentalPlane;
 import aviation.models.MilitaryPlaneType;
-import aviation.Planes.MilitaryPlane;
-import aviation.Planes.PassengerPlane;
-import aviation.Planes.Plane;
+import aviation.planes.MilitaryPlane;
+import aviation.planes.PassengerPlane;
+import aviation.planes.Plane;
 
 import java.util.*;
 
@@ -110,7 +110,7 @@ public class Airport {
     @Override
     public String toString() {
         return "aviation.Airport{" +
-                "aviation.Planes=" + planes.toString() +
+                "aviation.planes=" + planes.toString() +
                 '}';
     }
 
